@@ -4,24 +4,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="styles.css">
     <title>Rock Paper Scissors</title>
   </head>
-  <body>
-    <div class="container">
-      <h1>Lets Play Rock Paper Scissors</h1>
+  <body class="container">
+    <header>
+      <h1 class="title">Lets Play Rock Paper Scissors</h1>
+    </header>
+    <section>
+      <div class="container">
+        <h3>Choose One:</h3>
       <div class="row">
-        <h3>Choose One</h3>
-        <div class="col">
-            Rock
+        <div class="col-sm-1">
+            <button name="rock" id="rock" class="btn btn-default">Rock</button>
         </div>
-        <div class="col">
-          Paper
+        <div class="col-sm-1">
+        <button name="paper" id="paper" class="btn btn-default">Paper</button>
         </div>
-        <div class="col">
-          Scissors
+        <div class="col-sm-1">
+          <button name="scissors" id="scissors" class="btn btn-default">Scissors</button>
         </div>
       </div>
     </div>
+    </section>
 <script src="script.js" charset="utf-8"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
